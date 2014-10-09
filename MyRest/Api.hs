@@ -1,7 +1,7 @@
 module MyRest.Api where
 
 {--
-curl http://m.dev.mybetfirst.com:3000/newrest/1.0.0/message \
+curl http://127.0.0.1:3000/rest/1.0.0/message \
   -d '1' \
   -X POST \
   -H 'Content-Type: application/json'
@@ -13,7 +13,6 @@ import Data.IORef
 import Rest
 import Rest.Api
 import Rest.Driver.Wai
-import System.Environment
 import qualified Rest.Resource as R
 
 
